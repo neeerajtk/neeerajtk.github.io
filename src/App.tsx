@@ -1,30 +1,15 @@
 import React from "react";
-import Particles from "react-particles-js";
+import ParticlesContainer from "./components/ParticlesContainer";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Particles
-        params={{
-          particles: {
-            number: {
-              value: 80,
-            },
-            size: {
-              value: 2,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-            },
-          },
-        }}
-      />
-    </div>
+    <>
+      <div className="particlesContainer">
+        <ParticlesContainer />
+        <div className="particlesContainer">Hello World</div>
+      </div>
+    </>
   );
 }
 
