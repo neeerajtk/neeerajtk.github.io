@@ -1,0 +1,11 @@
+.headerTitles {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 25px;
+  font-size: large;
+}
+
+.headerItems {
+  margin: 5px;
+}
