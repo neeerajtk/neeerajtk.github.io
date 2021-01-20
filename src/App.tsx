@@ -6,7 +6,7 @@ import Name from "./components/Body/Name";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <div className="particlesContainer">
         <div className="particlesContainer">
           <Header />
@@ -14,7 +14,7 @@ function App() {
         </div>
         <ParticlesContainer />
       </div>
-    </>
+    </div>
   );
 }
 
