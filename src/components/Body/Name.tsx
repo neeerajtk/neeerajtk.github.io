@@ -33,9 +33,15 @@ export default function Name() {
         </h4>
       </div>
       <div className="socialContainer">
-        <i className="social fab fa-linkedin fa-2x"></i>
-        <i className="social fab fa-github fa-2x"></i>
-        <i className="social fab fa-instagram fa-2x"></i>
+        <a href="https://www.linkedin.com/in/neeerajtk/">
+          <i className="social fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/neeerajtk">
+          <i className="social fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/neeerajtk/">
+          <i className="social fab fa-instagram fa-2x"></i>
+        </a>
       </div>
     </>
   );
