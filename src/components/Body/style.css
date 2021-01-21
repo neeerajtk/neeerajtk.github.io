@@ -13,3 +13,12 @@
 .nameDescription {
   color: rgb(194, 194, 194);
 }
+
+.subHeading {
+  color: rgb(194, 194, 194);
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.typedText {
+  color: tomato;
+}
