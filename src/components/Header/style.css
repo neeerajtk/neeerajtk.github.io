@@ -9,3 +9,8 @@
 .headerItems {
   margin: 5px;
 }
+
+.switch {
+  color: white;
+  z-index: 5;
+}
