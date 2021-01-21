@@ -2,10 +2,14 @@ import React from "react";
 import "./style.css";
 import Typed from "react-typed";
 import Emoji from "a11y-react-emoji";
+import profile from "../../assets/profile.jpeg";
 
 export default function Name() {
   return (
     <>
+      <div className="imageContainer">
+        <img src={profile} id="profileImage" />
+      </div>
       <div className="nameContainer">
         <h1 className="nameDescription">
           Hi, I'm <span className="name">Neeraj</span>{" "}
