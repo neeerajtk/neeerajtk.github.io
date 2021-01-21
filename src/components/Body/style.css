@@ -2,7 +2,6 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  z-index: 99999;
 }
 
 .imageContainer {
@@ -21,7 +20,7 @@
 }
 
 .name {
-  color: tomato;
+  color: rgb(251, 251, 251);
 }
 
 .nameDescription {
@@ -34,5 +33,18 @@
   margin-right: 20px;
 }
 .typedText {
-  color: tomato;
+  color: rgb(251, 251, 251);
+}
+
+.socialContainer {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+.social {
+  color: rgb(194, 194, 194);
+
+  margin: 10px;
 }

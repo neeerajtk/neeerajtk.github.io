@@ -32,6 +32,11 @@ export default function Name() {
           />
         </h4>
       </div>
+      <div className="socialContainer">
+        <i className="social fab fa-linkedin fa-2x"></i>
+        <i className="social fab fa-github fa-2x"></i>
+        <i className="social fab fa-instagram fa-2x"></i>
+      </div>
     </>
   );
 }
