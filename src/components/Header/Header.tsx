@@ -12,9 +12,13 @@ export default function Header(props: Props) {
       <div className="headerTitles">
         <div className="headerItems">
           <i
-            className="switch fas fa-toggle-on fa-2x"
+            className={
+              props.dark
+                ? "switch fas fa-toggle-on fa-2x"
+                : "switch fas fa-toggle-off fa-2x"
+            }
             onClick={() => {
-              console.log("click");
+              props.setDark(!props.dark);
             }}
           ></i>
         </div>
