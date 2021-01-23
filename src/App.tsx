@@ -12,7 +12,7 @@ function App() {
       <div className="particlesContainer">
         <div className="particlesContainer">
           <Header setDark={setDark} dark={dark} />
-          <Name />
+          <Name dark={dark} />
         </div>
         <ParticlesContainer dark={dark} />
       </div>

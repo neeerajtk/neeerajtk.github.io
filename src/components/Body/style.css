@@ -23,6 +23,11 @@
   margin-left: 9px;
 }
 
+.subHeadingLight {
+  color: rgb(65, 65, 65);
+  margin-left: 9px;
+}
+
 .socialContainer {
   position: relative;
   left: 45%;
@@ -33,17 +38,31 @@
 .name {
   color: rgb(251, 251, 251);
 }
+.nameLight {
+  color: rgb(41, 41, 41);
+}
 
 .nameDescription {
   color: rgb(194, 194, 194);
+}
+.nameDescriptionLight {
+  color: rgb(65, 65, 65);
 }
 
 .typedText {
   color: rgb(251, 251, 251);
 }
+.typedTextLight {
+  color: rgb(41, 41, 41);
+}
 
 .social {
   color: rgb(194, 194, 194);
+  margin: 10px;
+  z-index: 2;
+}
+.socialLight {
+  color: rgb(54, 54, 54);
   margin: 10px;
   z-index: 2;
 }

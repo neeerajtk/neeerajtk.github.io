@@ -28,13 +28,13 @@ export default function ParticlesContainer(props: Props) {
               },
             },
             color: {
-              value: props.dark ? "#ffffff" : "#000000",
+              value: props.dark ? "#ffffff" : "#404040",
             },
             shape: {
               type: "circle",
               stroke: {
                 width: 0,
-                color: props.dark ? "#000000" : "#ffffff",
+                color: props.dark ? "#404040" : "#ffffff",
               },
               polygon: {
                 nb_sides: 5,
@@ -68,7 +68,7 @@ export default function ParticlesContainer(props: Props) {
             line_linked: {
               enable: true,
               distance: 150,
-              color: props.dark ? "#ffffff" : "#000000",
+              color: props.dark ? "#ffffff" : "#404040",
               opacity: 0.4,
               width: 1,
             },

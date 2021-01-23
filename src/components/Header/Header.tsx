@@ -15,7 +15,7 @@ export default function Header(props: Props) {
             className={
               props.dark
                 ? "switch fas fa-toggle-on fa-2x"
-                : "switch fas fa-toggle-off fa-2x"
+                : "switchLight fas fa-toggle-off fa-2x"
             }
             onClick={() => {
               props.setDark(!props.dark);
