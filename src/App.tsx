@@ -3,6 +3,7 @@ import ParticlesContainer from "./components/Particles/ParticlesContainer";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Name from "./components/Body/Name";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [dark, setDark] = useState<boolean>(true);
@@ -15,6 +16,7 @@ function App() {
           <Name dark={dark} />
         </div>
         <ParticlesContainer dark={dark} />
+        <Footer dark={dark} />
       </div>
     </div>
   );
