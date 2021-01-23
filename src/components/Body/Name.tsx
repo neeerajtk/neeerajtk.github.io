@@ -23,13 +23,13 @@ export default function Name(props: Props) {
       </div>
       <div className="nameContainer">
         <h4 className={props.dark ? "subHeading" : "subHeadingLight"}>
-          I'm{" "}
           <Typed
             className={props.dark ? "typedText" : "typedTextLight"}
             strings={[
-              "a Frontend Developer !",
-              "an Engineering Graduate !",
-              "a Minimalist !",
+              "I'm a Frontend Developer !",
+              "I'm an Engineering Graduate !",
+              "I work in ReactJS !",
+              "I love web development !",
             ]}
             typeSpeed={60}
             backSpeed={40}
