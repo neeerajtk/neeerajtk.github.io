@@ -5,18 +5,29 @@
 }
 
 .imageContainer {
-  position: absolute;
-  left: 44%;
-  top: 24%;
+  position: relative;
+  top: 70px;
+  left: 45%;
   z-index: 1;
 }
 
 .nameContainer {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
+  position: relative;
+  left: 42%;
+  top: 90px;
+  z-index: 1;
+}
+
+.subHeading {
+  color: rgb(194, 194, 194);
+  margin-left: 9px;
+}
+
+.socialContainer {
+  position: relative;
+  left: 45%;
+  top: 120px;
+  z-index: 1;
 }
 
 .name {
@@ -27,26 +38,12 @@
   color: rgb(194, 194, 194);
 }
 
-.subHeading {
-  color: rgb(194, 194, 194);
-  margin-top: 100px;
-  margin-right: 20px;
-}
 .typedText {
   color: rgb(251, 251, 251);
 }
 
-.socialContainer {
-  position: absolute;
-  margin-top: 120px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
 .social {
   color: rgb(194, 194, 194);
-
   margin: 10px;
   z-index: 2;
 }

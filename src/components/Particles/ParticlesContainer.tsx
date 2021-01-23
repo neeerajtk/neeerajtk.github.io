@@ -1,16 +1,17 @@
 import React from "react";
 import Particles from "react-particles-js";
+import "./style.css";
 
 export default function ParticlesContainer() {
   return (
     <div
       style={{
-        position: "absolute",
+        position: "fixed",
         top: 0,
         left: 0,
-        width: "100%",
-        height: "100%",
+        height: "100vh",
       }}
+      className="particlesContnr"
     >
       <Particles
         params={{

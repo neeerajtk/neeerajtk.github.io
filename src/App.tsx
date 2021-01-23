@@ -8,7 +8,7 @@ function App() {
   const [dark, setDark] = useState<boolean>(true);
 
   return (
-    <div className="app">
+    <div className="backgroundBlack">
       <div className="particlesContainer">
         <div className="particlesContainer">
           <Header setDark={setDark} dark={dark} />
