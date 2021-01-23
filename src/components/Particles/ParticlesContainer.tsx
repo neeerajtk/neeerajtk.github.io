@@ -2,7 +2,11 @@ import React from "react";
 import Particles from "react-particles-js";
 import "./style.css";
 
-export default function ParticlesContainer() {
+interface Props {
+  dark: boolean;
+}
+
+export default function ParticlesContainer(props: Props) {
   return (
     <div
       style={{
@@ -24,13 +28,13 @@ export default function ParticlesContainer() {
               },
             },
             color: {
-              value: "#ffffff",
+              value: props.dark ? "#ffffff" : "#000000",
             },
             shape: {
               type: "circle",
               stroke: {
                 width: 0,
-                color: "#000000",
+                color: props.dark ? "#000000" : "#ffffff",
               },
               polygon: {
                 nb_sides: 5,
@@ -64,7 +68,7 @@ export default function ParticlesContainer() {
             line_linked: {
               enable: true,
               distance: 150,
-              color: "#ffffff",
+              color: props.dark ? "#ffffff" : "#000000",
               opacity: 0.4,
               width: 1,
             },
