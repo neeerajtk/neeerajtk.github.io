@@ -1,11 +1,22 @@
 import React from "react";
 import "./style.css";
-export default function Header() {
+
+type Props = {
+  dark: boolean;
+  setDark: (setDark: boolean) => void;
+};
+
+export default function Header(props: Props) {
   return (
     <nav>
       <div className="headerTitles">
         <div className="headerItems">
-          <i className="switch fas fa-toggle-on fa-2x"></i>
+          <i
+            className="switch fas fa-toggle-on fa-2x"
+            onClick={() => {
+              console.log("click");
+            }}
+          ></i>
         </div>
       </div>
     </nav>

@@ -1,9 +1,15 @@
 .headerTitles {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
   margin-right: 25px;
   font-size: large;
+  z-index: 3;
+}
+
+nav {
+  z-index: 9999;
 }
 
 .headerItems {

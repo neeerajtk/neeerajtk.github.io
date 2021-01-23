@@ -8,7 +8,7 @@ export default function Name() {
   return (
     <>
       <div className="imageContainer">
-        <img src={profile} id="profileImage" />
+        <img src={profile} id="profileImage" alt="profilepicture" />
       </div>
       <div className="nameContainer">
         <h1 className="nameDescription">
@@ -18,13 +18,13 @@ export default function Name() {
       </div>
       <div className="nameContainer">
         <h4 className="subHeading">
-          I'm a{" "}
+          I'm{" "}
           <Typed
             className="typedText"
             strings={[
-              "Frontend Developer !",
-              "Btech Graduate !",
-              "Minimalist !",
+              "a Frontend Developer !",
+              "an Engineering Graduate !",
+              "a Minimalist !",
             ]}
             typeSpeed={60}
             backSpeed={40}
