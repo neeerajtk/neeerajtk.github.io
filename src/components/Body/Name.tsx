@@ -28,7 +28,7 @@ export default function Name(props: Props) {
             strings={[
               "I'm a Frontend Developer !",
               "I'm an Engineering Graduate !",
-              "I work in ReactJS !",
+              "I work in ReactJS & Typescript !",
               "I love web development !",
             ]}
             typeSpeed={60}
