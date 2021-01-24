@@ -2,8 +2,6 @@
   position: relative;
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
-  margin-right: 25px;
   font-size: large;
   z-index: 3;
 }
@@ -12,11 +10,16 @@
   margin: 5px;
 }
 
+.switch,
+.switchLight {
+  z-index: 5;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
 .switch {
   color: white;
-  z-index: 5;
 }
 .switchLight {
   color: rgb(54, 54, 54);
-  z-index: 5;
 }

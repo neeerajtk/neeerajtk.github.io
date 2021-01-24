@@ -1,14 +1,14 @@
-#profileImage {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-}
-
 .imageContainer {
   position: relative;
   top: 70px;
   left: 45%;
   z-index: 1;
+}
+
+#profileImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .nameContainer {
@@ -18,14 +18,17 @@
   z-index: 1;
 }
 
+.subHeading,
+.subHeadingLight {
+  margin-left: 8px;
+}
+
 .subHeading {
   color: rgb(194, 194, 194);
-  margin-left: 8px;
 }
 
 .subHeadingLight {
   color: rgb(65, 65, 65);
-  margin-left: 8px;
 }
 
 .socialContainer {
@@ -38,6 +41,7 @@
 .name {
   color: rgb(251, 251, 251);
 }
+
 .nameLight {
   color: rgb(41, 41, 41);
 }
@@ -45,6 +49,7 @@
 .nameDescription {
   color: rgb(194, 194, 194);
 }
+
 .nameDescriptionLight {
   color: rgb(65, 65, 65);
 }
@@ -56,15 +61,17 @@
   color: rgb(41, 41, 41);
 }
 
-.social {
-  color: rgb(194, 194, 194);
+.social,
+.socialLight {
   margin: 10px;
   z-index: 2;
 }
+
+.social {
+  color: rgb(194, 194, 194);
+}
 .socialLight {
   color: rgb(54, 54, 54);
-  margin: 10px;
-  z-index: 2;
 }
 
 .socialContainer :hover {

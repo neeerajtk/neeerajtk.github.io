@@ -8,7 +8,7 @@ interface Props {
   dark: boolean;
 }
 
-export default function Name(props: Props) {
+export default function Body(props: Props) {
   return (
     <>
       <div className="imageContainer">

@@ -10,18 +10,16 @@ export default function Header(props: Props) {
   return (
     <nav>
       <div className="headerTitles">
-        <div className="headerItems">
-          <i
-            className={
-              props.dark
-                ? "switch fas fa-toggle-on fa-2x"
-                : "switchLight fas fa-toggle-off fa-2x"
-            }
-            onClick={() => {
-              props.setDark(!props.dark);
-            }}
-          ></i>
-        </div>
+        <i
+          className={
+            props.dark
+              ? "switch fas fa-toggle-on fa-2x"
+              : "switchLight fas fa-toggle-off fa-2x"
+          }
+          onClick={() => {
+            props.setDark(!props.dark);
+          }}
+        ></i>
       </div>
     </nav>
   );
